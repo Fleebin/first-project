@@ -37,7 +37,7 @@ p, h4 {
 }
 #player iframe {
 
-	margin-left: 25%;
+	margin-left: 20%;
 	margin-top: 6%;
 	width: 538px;
 	height: 290px;
@@ -57,7 +57,7 @@ p, h4 {
 	height: 600px;
 
 	border-radius:6px;
-	
+
 }
 
 </style>
