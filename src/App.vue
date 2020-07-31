@@ -68,5 +68,9 @@ body{
 	font-size: 14px;
 }
 
+#videos{
+	display: flex;
+	justify-content: center;
+}
 
 </style>

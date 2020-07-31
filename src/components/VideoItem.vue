@@ -1,45 +1,49 @@
 <template>
-
-<div id="item" @click="onVideoSelect">
-	<section>
-		<img :src="thumbnailUrl">
-	</section>
-	
-</div>
-		
-	
+  <div id="item" @click="onVideoSelect">
+    <img :src="thumbnailUrl" />
+    <div class="descricao">
+	{{ video.snippet.title }}
+	</div>
+  </div>
 </template>
 
 <script>
 export default {
-	name: 'VideoItem',
-	props: {
-		video: Object
-	},
-	computed: {
-		thumbnailUrl() {
-			return this.video.snippet.thumbnails.default.url;
-		}
-	},
-	methods: {
-		onVideoSelect() {
-			this.$emit('videoSelect', this.video);
-		}
-	}
-}
+  name: "VideoItem",
+  props: {
+    video: Object,
+  },
+  computed: {
+    thumbnailUrl() {
+      return this.video.snippet.thumbnails.default.url;
+    },
+  },
+  methods: {
+    onVideoSelect() {
+      this.$emit("videoSelect", this.video);
+    },
+  },
+};
 </script>
 
 <style scoped>
+
+#item{
+	display: flex;
+ 	
+	align-content : flex-end;
 	
+	background-color: #FFFFFF;
 
+	margin-bottom: 32px;
+	border-radius: 6px;
 
-h4{
-	display: inline-block;
+	padding: 30px;
 }
-img{
-	width: 186px;
-	height: 118px;
+img {
+  width: 100px;
+  height: 80px;
+
+  margin-right:32px;
 }
-
-
 </style>

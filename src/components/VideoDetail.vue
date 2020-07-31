@@ -3,7 +3,7 @@
 		<div id="player">
 			<iframe :src="videoUrl" />
 		</div>
-		<div>
+		<div id="descricao">
 			<h4>{{ video.snippet.title }}</h4>
 			<p>{{ video.snippet.description }}</p>
 		</div>
@@ -40,6 +40,8 @@ p, h4 {
 	margin-top: 3%;
 	width: 538px;
 	height: 290px;
+
+	
 	
 }
 

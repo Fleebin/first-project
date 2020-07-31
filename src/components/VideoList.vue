@@ -27,23 +27,3 @@ export default {
 	}
 };
 </script>
-
-<style scoped>
-
-ul{
-	
-    display : flex;
-    justify-content : space-evenly;
-    align-items : center;
-    flex-direction : row-reverse;
-    align-content : initial;
-    flex-wrap : wrap;
-
-	background-color: #FFFFFF;
-
-	padding: 3%;
-	border-radius: 6px;
-
-}
-
-</style>
