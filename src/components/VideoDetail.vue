@@ -33,15 +33,16 @@ p, h4 {
 	display: flex;
 	justify-content: center;
 	
+	
 }
 #player iframe {
 
-	margin-left: 30%;
-	margin-top: 3%;
+	margin-left: 25%;
+	margin-top: 6%;
 	width: 538px;
 	height: 290px;
 
-	overflow: hidden;
+	
 	
 	
 }
@@ -52,10 +53,11 @@ p, h4 {
 	display:block;
 	justify-content: center;
 
-	
+	width: 40%;
 	height: 600px;
 
 	border-radius:6px;
+	
 }
 
 </style>

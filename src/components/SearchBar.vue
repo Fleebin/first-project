@@ -1,5 +1,6 @@
 <template>
-	<div>
+	<div>	
+		<label>Encontre o video que você procura!</label>
 		<input @keyup.enter="onInput" placeholder="Pesquisar" />
 	</div>
 </template>
@@ -17,7 +18,12 @@ export default {
 
 <style scoped>
 
-
+	label{
+		display: block;
+		font-size: 19px;
+		margin-bottom: 0.5%;
+	}
+	
 	input {
 		
 		width: 30%;
