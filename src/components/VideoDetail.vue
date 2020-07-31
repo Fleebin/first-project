@@ -36,11 +36,12 @@ p, h4 {
 }
 #player iframe {
 
-	margin-left: 37%;
+	margin-left: 30%;
 	margin-top: 3%;
 	width: 538px;
 	height: 290px;
 
+	overflow: hidden;
 	
 	
 }
