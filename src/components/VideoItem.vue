@@ -46,4 +46,24 @@ img {
 
   margin-right:32px;
 }
+@media (min-width:768px){
+  #item{
+	display: block;
+ 	
+	
+	
+	background-color: #FFFFFF;
+
+	margin-bottom: 32px;
+	border-radius: 6px;
+
+	padding: 30px;
+}
+img {
+  width: 60px;
+  height: 60px;
+
+  margin-right:32px;
+}
+}
 </style>
