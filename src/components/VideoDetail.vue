@@ -37,7 +37,7 @@ p, h4 {
 }
 #player iframe {
 
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-top: 6%;
 	width: 500px;
 	height: 290px;
