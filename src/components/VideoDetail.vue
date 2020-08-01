@@ -37,9 +37,9 @@ p, h4 {
 }
 #player iframe {
 
-	margin-left: 13%;
+	margin-left: 20%;
 	margin-top: 6%;
-	width: 538px;
+	width: 500px;
 	height: 290px;
 
 	
@@ -53,7 +53,7 @@ p, h4 {
 	display:block;
 	justify-content: center;
 
-	width: 40%;
+	width: 50%;
 	height: 600px;
 
 	border-radius:6px;
