@@ -1,4 +1,4 @@
-# jaleko
+# Vue Youtube Api
 
 ## Project setup
 ```
